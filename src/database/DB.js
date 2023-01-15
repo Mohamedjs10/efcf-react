@@ -5,8 +5,8 @@ export const DB = [
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news1-1.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news1-2.jpg",
-      "https://serving.photos.photobox.com/91571084ea35dad17b422d2759089a263d2551f9c2bc31181c18c90290b321672f53b16e.jpg",
-      "https://serving.photos.photobox.com/079610019ac0a28328fb79365c73929ad37bc75f870eed275ff61086fb29d9ffafac3bb2.jpg",
+      "https://i.postimg.cc/ZKRypWk3/news1-1.webp",
+      "https://i.postimg.cc/8P9svwmQ/news1-2.webp",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي ورشة عمل عن أهمية دور مسئولى المخاطر والاحتيال تحت رعاية الهيئة العامة للرقابة المالية",
@@ -26,9 +26,9 @@ export const DB = [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news2-1.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news2-2.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news2-3.jpg",
-      "https://serving.photos.photobox.com/618621918a3fb26329ac891b56f9015554b0fe020bdf371d5db3b706dc3a15d4ed2d7469.jpg",
-      "https://serving.photos.photobox.com/426367338c173c87ae82ecdf56bc02862046e35e11f80bf4a7b418e244895f3d6a8c44f9.jpg",
-      "https://serving.photos.photobox.com/51459396885987b5d3c6079cb6a47ca00734e3ace45b4e38a21f42d6ba34a96eac6b97e0.jpg",
+      "https://i.postimg.cc/13FXr6vg/news2-1.webp",
+      "https://i.postimg.cc/HxYLmNd5/news2-2.webp",
+      "https://i.postimg.cc/W351171y/news2-3.webp",
     ],
     title:
       "رئيس هيئة الرقابة المالية يشهد توقيع اتفاقية تعاون بين (مركز المديرين المصري) و (الإتحاد المصري للتمويل الإستهلاكي)",
@@ -45,7 +45,7 @@ export const DB = [
     flag: true,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news3.jpg",
-      "https://serving.photos.photobox.com/2988097363facffd6a92b874e56afc8cf826404df4654eb75ce5898315b58f7a42299c92.jpg",
+      "https://i.postimg.cc/90zFRq4Q/news3.webp",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي ورشة عمل عن التنمية المستدامة تحت رعاية الهيئة العامة للرقابة المالية",
@@ -63,7 +63,7 @@ export const DB = [
     flag: true,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news4.jpg",
-      "https://serving.photos.photobox.com/49373704a90e7abd69c42f225a3aad3ce090f34ae996c257a70bf5c0c1c8566ebed012d5.jpg",
+      "https://i.postimg.cc/yYMYxx77/news4.webp",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي ورشة عمل مع الشركة المصرية للإستعلام الإئتمانى (iScore) عن كيفية توحيد تقارير الاستعلام الائتماني تحت رعاية الهيئة العامة للرقابة المالية",
@@ -87,7 +87,7 @@ export const DB = [
     flag: true,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news5.jpg",
-      "https://serving.photos.photobox.com/93615791d0425bd38918847e7c56716e68c7779d3a8ddc983ff223f4761f5d61bd3ea815.jpg",
+      "https://i.postimg.cc/0j35p2md/news5.webp",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي ورشة عمل إجراءات مكافحة غسل الأموال وتمويل الإرهاب فى المؤسسات المالية غير المصرفية تحت رعاية الهيئة العامة للرقابة المالية",
@@ -109,7 +109,7 @@ export const DB = [
     flag: true,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news6.jpg",
-      "https://serving.photos.photobox.com/67239058547c81e48401c23fb8185e566092b90040c31cd3ad095573a4995f2a1dc91667.jpg",
+      "https://i.postimg.cc/mZ6rxVqz/news6.webp",
     ],
     title:
       "ورشة عمل عن :الإتحاد المصري للتمويل الإستهلاكي ينظم ورشة عمل بالتعاون مع الشركة المصرية للإستعلام الإئتمانى (iScore) تحت رعاية الهيئة العامة للرقابة المالية",
@@ -130,9 +130,8 @@ export const DB = [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news7-1.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news7-2.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news7-3.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news7-1.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news7-2.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news7-3.jpg",
+      "https://i.postimg.cc/Y90wbBtX/news7-2.webp",
+      "https://i.postimg.cc/xCZVZpC9/news7-3.webp",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي ينظم ورشة عمل بالتعاون مع الشركة المصرية للإستعلام الإئتمانى (iScore) تحت رعاية الهيئة العامة للرقابة المالية",
@@ -151,7 +150,7 @@ export const DB = [
     number: 8,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news8.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news8.jpg",
+      "https://i.postimg.cc/fLqMNTHn/news8.jpg",
     ],
     title: "ورشة عمل : الشركة المصرية للإستعلام الإئتماني ش.م.م. ( i-Score )",
     body: `يتشرف الاتحاد المصرى للجهات العاملة فى مجال التمويل الإستهلاكى برعاية الهيئة العامة للرقابة المالية بدعوة ممثلى شركاتكم الموقرة من الرؤساء والمديرين التنفيذين لحضور  ورشة العمل الثالثة عن ال ” i-Socre  وسجل المنقولات الخاص بقطاع التمويل الإستهلاكي ” وذلك يوم الخميس الموافق 09 يونيو من الساعة التاسعة والنصف صباحا بمقر الهيئة العامة للرقابة المالية، بحضور ورعاية الدكتورة/ إيمان زكريا – رئيس الإدارة المركزية للاشراف و الرقابة على أنشطة التمويل، ويشرفنا أن يقدم ورشة العمل مشكورين السادة :
@@ -165,7 +164,7 @@ export const DB = [
     flag: true,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news9.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news9.jpg",
+      "https://i.postimg.cc/PNssXLYc/news9.jpg",
     ],
     title: "ورشة عمل عن : المتطبات الرقابية في مجال التمويل الإستهلاكي",
     body: `أطلق الإتحاد المصري للجهات العاملة في مجال للتمويل الإستهلاكي أولى ورش العمل الخاصة بنشاط التدريب للجهات العامة في المجال تحت رعاية ودعم الهيئة العامة للرقابة المالية، والتي كانت بعنوان “المتطلبات الرقابية في مجال التمويل الإستهلاكي”.
@@ -183,7 +182,7 @@ export const DB = [
     number: 10,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news10.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news10.jpg",
+      "https://i.postimg.cc/5NLjwL7X/news10.jpg",
     ],
     title:
       "ورشة عمل عن : قواعد حوكمة الشركات العاملة في مجال الأنشطة المالية غير المصرفية",
@@ -205,11 +204,11 @@ export const DB = [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-3.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-4.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-5.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-1.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-2.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-3.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-4.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news11-5.jpg",
+      "https://i.postimg.cc/XqFNk6gR/news11-1.jpg",
+      "https://i.postimg.cc/zDRfrT1x/news11-2.jpg",
+      "https://i.postimg.cc/4NkxNnfs/news11-3.jpg",
+      "https://i.postimg.cc/13MmHHp3/news11-4.jpg",
+      "https://i.postimg.cc/9fMWN7pt/news12-1.jpg",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي ينظم ثاني ورشة برعاية الهيئة العامة للرقابة المالية بعنوان “قواعد حوكمة الشركات العاملة في مجال الأنشطة المالية غير المصرفية”",
@@ -231,11 +230,11 @@ export const DB = [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-3.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-4.jpg",
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-5.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-1.png",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-2.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-3.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-4.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news12-5.jpg",
+      "https://i.postimg.cc/9fMWN7pt/news12-1.jpg",
+      "https://i.postimg.cc/25KzpS9p/news12-2.jpg",
+      "https://i.postimg.cc/mD1TTWKP/news12-3.jpg",
+      "https://i.postimg.cc/WzRT3fPX/news12-4.jpg",
+      "https://i.postimg.cc/25KzpS9p/news12-2.jpg",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي يبدأ نشاطه التدريبي بورشة عمل بعنوان “المتطبات الرقابية في مجال التمويل الإستهلاكي”",
@@ -253,7 +252,7 @@ export const DB = [
     number: 13,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news13.jpeg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news13.jpeg",
+      "https://i.postimg.cc/fTNMQFCb/news13.jpg",
     ],
     title:
       "دعوة لحضور ندوة بعنوان أسباب اللجوء للوساطة لتسوية المنازعات المالية غير المصرفية",
@@ -263,7 +262,7 @@ export const DB = [
     number: 14,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news14.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news14.jpg",
+      "https://i.postimg.cc/25KzpS9p/news12-2.jpg",
     ],
     title: "إنطلاق أولى ورش عمل الاتحاد المصري للتمويل الإستهلاكي",
     body: `يسرنا أن نعلن لحضراتكم عن انطلاق النشاط التدريبى للاتحاد المصرى للجهات العاملة فى مجال التمويل الإستهلاكى، ويشرفنا أن تكون أولى ورش العمل تحت رعاية وبدعم من الهيئة العامة للرقابة المالية،
@@ -273,7 +272,7 @@ export const DB = [
     number: 15,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news15.png",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news15.png",
+      "https://i.postimg.cc/pXJRWZcJ/news15.jpg",
     ],
     title:
       "الإتحاد المصري للتمويل الإستهلاكي ينعي الأستاذ/ عبد الحميد إبراهيم -عضو مجلس إدارة الهيئة العامة للرقابة المالية    ",
@@ -285,7 +284,7 @@ export const DB = [
     number: 16,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news16.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news16.jpg",
+      "https://i.postimg.cc/fyxZ0jzZ/news16.jpg",
     ],
     title: "“زعتر” أول رئيس لمجلس إدارة اتحاد التمويل الاستهلاكي",
     body: `عقدت اليوم الهيئة العامة للرقابة المالية انتخابات أول مجلس إدارة اتحاد تمويل استهلاكي وفاز برئاسته سعيد زعتر.
@@ -296,7 +295,7 @@ export const DB = [
     number: 17,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news17.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news17.jpg",
+      "https://i.postimg.cc/zGD5Vg9Z/news17.jpg",
     ],
     title: "الاتحاد المصري للتمويل الاستهلاكي يبحث تأسيس المقر الرسمي",
     body: `إسلام فضل _ عقد مجلس إدارة الاتحاد المصري للجهات العاملة في مجال التمويل الاستهلاكي، اجتماعه الرسمي الأول بعد تشكيل مجلس الإدارة، عقب انتهاء انتخابات مجلس إدارة الاتحاد التي انعقدت ضمن فعاليات الجمعية التأسيسية للاتحاد المصري للجهات العاملة في مجال التمويل الاستهلاكي في الأسبوع الأخير من شهر سبتمبر المنصرم بمقر الهيئة العامة للرقابة المالية.
@@ -308,7 +307,7 @@ export const DB = [
     number: 18,
     imgUrl: [
       // "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news18.jpg",
-      "https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/news18.jpg",
+      "https://i.postimg.cc/sgnzS2rB/news18.jpg",
     ],
     title:
       "تعرف على التشكيل الجديد لمجلس إدارة الاتحاد المصري للتمويل الاستهلاكي",

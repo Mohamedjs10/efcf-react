@@ -27,7 +27,7 @@ export default function Home() {
         sx={{
           backgroundColor: "rgba(255,255,255,0)",
           backgroundImage:
-            "url(https://www.efcf.org.eg/wp-content/uploads/2022/01/Group-24.png)",
+            "url(https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/bg.webp)",
           bgPosition: "center",
           backgroundRepeat: "no-repeat",
           borderWidth: "0px",

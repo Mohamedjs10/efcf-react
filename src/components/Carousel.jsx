@@ -23,7 +23,7 @@ function CarouselFadeExample({ width, images, title, body, number }) {
           })}
         </Carousel>
       ) : (
-        <Carousel fade interval={2000} controls={true} indicators={false}>
+        <Carousel fade interval={2000} controls={true} indicators={true}>
           {images.map((item, index) => {
             return (
               <Carousel.Item>
