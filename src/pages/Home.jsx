@@ -79,15 +79,15 @@ export default function Home() {
               borderColor: "#e2e2e2",
               borderStyle: "solid",
               backgroundSize: "cover",
-              height: "650px",
-              width: "75%",
+              height: "750px",
+              width: "80%",
               position: "relative",
             }}
           >
             <Box
               sx={{
                 position: "absolute",
-                top: "230px",
+                top: "280px",
                 left: "30px",
                 width: "550px",
                 lineHeight: "2",
