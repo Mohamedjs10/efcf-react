@@ -7,20 +7,37 @@ import { styles } from "./Carousel";
 function CarouselFadeExample({ width, images, title, body, number }) {
   return (
     <Box sx={styles.container} style={{ width }} dir="rtl">
-      <Carousel fade interval={2000} controls={true} indicators={false}>
-        {images.map((item, index) => {
-          return (
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={item}
-                alt={index}
-                height={230}
-              />
-            </Carousel.Item>
-          );
-        })}
-      </Carousel>
+      {images.length == 1 ? (
+        <Carousel fade interval={2000} controls={false} indicators={false}>
+          {images.map((item, index) => {
+            return (
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={item}
+                  alt={index}
+                  height={230}
+                />
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+      ) : (
+        <Carousel fade interval={2000} controls={true} indicators={false}>
+          {images.map((item, index) => {
+            return (
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={item}
+                  alt={index}
+                  height={230}
+                />
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+      )}
       <Box
         sx={styles.link}
         component={Link}
