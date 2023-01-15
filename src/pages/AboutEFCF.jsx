@@ -6,7 +6,6 @@ import BlueCard from "../components/BlueCard.jsx";
 export default function AboutEFCF() {
   return (
     <Box dir="rtl">
-      <Box sx={{ borderBottom: "1px solid #eee" }}></Box>
       <Box sx={styles.innerContainer}>
         <Box sx={styles.paragraphContainer}>
           <Title title="عن الاتحاد"></Title>
@@ -25,7 +24,7 @@ export default function AboutEFCF() {
             في مجال التمويل الاستهلاكي في جمهورية مصر العربية.
           </Box>
         </Box>
-        <Box sx={{ borderRadius: "20px", overflow: "hidden" }}>
+        <Box sx={{ borderRadius: "20px", overflow: "hidden", mb: 5 }}>
           <img
             src="https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/about-efcf.png"
             width="100%"

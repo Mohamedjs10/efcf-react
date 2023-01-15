@@ -134,7 +134,7 @@ export default function Direction() {
             <Button
               variant="contained"
               sx={{
-                width: { xs: "200px", md: "700px" },
+                width: { xs: "200px", md: "640px" },
                 height: "60px",
                 bgcolor: "#bb2f2c",
                 ":hover": {

@@ -12,6 +12,7 @@ export default function BoardMembers() {
         m: 3,
         display: "flex",
         flexWrap: "wrap",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
       }}

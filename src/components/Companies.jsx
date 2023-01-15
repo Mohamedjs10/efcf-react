@@ -6,10 +6,18 @@ import Title from "./Title.jsx";
 
 export default function Companies() {
   return (
-    <Box sx={{ mr: 20, ml: 20, width: "80%" }}>
+    <Box
+      sx={{
+        mr: 20,
+        ml: 20,
+        width: "80%",
+        pt: 5,
+      }}
+    >
       <Title title="الشركات" />
       <Box
         sx={{
+          pt: 5,
           display: "grid",
           marginBottom: "50px",
           gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))",

@@ -16,6 +16,7 @@ export default function services() {
           marginBottom: "100px",
           gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
           gap: "40px",
+          pt: 5,
         }}
       >
         {textContext.services.map((service) => (

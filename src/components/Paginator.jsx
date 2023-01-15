@@ -39,6 +39,7 @@ export default function Navbar() {
           gap: 3,
           flexWrap: "wrap",
           justifyContent: "center",
+          pt: 5,
         }}
       >
         {paginatedPages.map((item) => {
@@ -47,7 +48,7 @@ export default function Navbar() {
               width={"350px"}
               images={item.imgUrl}
               title={truncateString(item.title, 80)}
-              body={truncateString(item.body, 110)}
+              body={truncateString(item.body, 100)}
               number={item.number}
             ></Carousel>
           );

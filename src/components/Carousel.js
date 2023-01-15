@@ -8,7 +8,6 @@ export const styles = {
     justifyContent: "center",
     textDecoration: "none",
     color: "#000",
-
     transition: "transform .2s",
     "&:hover": { transform: "scale(1.1)", color: "#bb2f2c" },
   }),
@@ -24,5 +23,10 @@ export const styles = {
     p: 1,
     whiteSpace: "pre-line",
     textAlign: "right",
+  }),
+  link: (theme) => ({
+    textDecoration: "none",
+    color: "#000",
+    "&:hover": { color: "#bb2f2c" },
   }),
 };

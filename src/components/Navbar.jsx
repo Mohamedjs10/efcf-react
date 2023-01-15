@@ -7,10 +7,15 @@ import DropdownWrapper from "../components/DropdownWrapper.jsx";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import BurgerMenu from "../components/BurgerMenu.jsx";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   const [clickedLink, selectedLink] = useState("");
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("lg"));
+  const navigate = useNavigate();
+
   return (
     <Box sx={styles.container}>
       {matches ? (
@@ -72,7 +77,17 @@ export default function Navbar() {
         </Box>
       )}
       <Box sx={styles.logo_container}>
-        <Box component="img" alt="yasmine-helal" src={logo} width="100%" />
+        <Link to="/">
+          <Box
+            component="img"
+            alt="yasmine-helal"
+            src={logo}
+            width="100%"
+            // onClick={() => {
+            //   navigate("/");
+            // }}
+          />
+        </Link>
       </Box>
     </Box>
   );

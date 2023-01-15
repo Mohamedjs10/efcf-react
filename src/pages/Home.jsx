@@ -1,4 +1,3 @@
-import React from "react";
 import Paginator from "../components/Paginator.jsx";
 import Companies from "../components/Companies.jsx";
 import { Box } from "@mui/material";
@@ -7,10 +6,13 @@ import Title from "../components/Title.jsx";
 import MemberCard from "../components/MemberCard.jsx";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.down("lg"));
+  const [shoeMore, setShowMore] = useState(false);
   return (
     <Box
       dir="rtl"
@@ -40,7 +42,7 @@ export default function Home() {
           justifyContent: "center",
           alignItems: "center",
           height: "600px",
-          width: "80%",
+          width: "90%",
           mr: 10,
           ml: 10,
           mb: 10,
@@ -57,6 +59,7 @@ export default function Home() {
           alignItems: "center",
           justifyContent: "center",
           width: "100%",
+          pb: 10,
         }}
       >
         <Title title="رسالة رئيس الاتحاد"></Title>
@@ -84,7 +87,7 @@ export default function Home() {
             <Box
               sx={{
                 position: "absolute",
-                bottom: "100px",
+                top: "200px",
                 left: "30px",
                 width: "550px",
                 lineHeight: "2",
@@ -95,12 +98,47 @@ export default function Home() {
               الفترة القادمة بالتعاون مع أعضاء المجلس والهيئة العامة للرقابة
               المالية لتفعيل دور الاتحاد وعقد جلسات حوارية مع الشركات المقيدة
               لمناقشة احتياجات الشركات العاملة في مجال التمويل الاستهلاكي
-              ومناقشة آليات تطور سوق التمويل الاستهلاكي المصري، إيماناً بأن
-              الاتحاد سيجمع كل القائمين على نشاط التمويل الاستهلاكي، فبرغم
-              المنافسة روح التعاون دائماً موجودة لأن هدفنا جميعاً في النهاية هو
-              تطوير قطاع التمويل الاستهلاكي بشكل عام.. وقد تشرفت بالتعامل مع
-              القائمين على شركات التمويل الاستهلاكي ومقدمي الخدمة خلال فترة عمل
-              اللجنة التأسيسية، ونسعى جميعا لاستمرار التعاون من خلال الاتحاد.
+              {shoeMore && (
+                <>
+                  <Box>
+                    ومناقشة آليات تطور سوق التمويل الاستهلاكي المصري، إيماناً
+                    بأن الاتحاد سيجمع كل القائمين على نشاط التمويل الاستهلاكي،
+                    فبرغم المنافسة روح التعاون دائماً موجودة لأن هدفنا جميعاً في
+                    النهاية هو تطوير قطاع التمويل الاستهلاكي بشكل عام.. وقد
+                    تشرفت بالتعامل مع القائمين على شركات التمويل الاستهلاكي
+                    ومقدمي الخدمة خلال فترة عمل اللجنة التأسيسية، ونسعى جميعا
+                    لاستمرار التعاون من خلال الاتحاد.
+                  </Box>
+                  <Box
+                    // component={Link}
+                    onClick={() => {
+                      setShowMore(false);
+                    }}
+                    sx={{
+                      textDecoration: "none",
+                      textAlign: "left",
+                      "&:hover": { cursor: "pointer" },
+                    }}
+                  >
+                    عرض أقل
+                  </Box>
+                </>
+              )}
+              {!shoeMore && (
+                <Box
+                  // component={Link}
+                  onClick={() => {
+                    setShowMore(true);
+                  }}
+                  sx={{
+                    textDecoration: "none",
+                    textAlign: "left",
+                    "&:hover": { cursor: "pointer" },
+                  }}
+                >
+                  المزيد
+                </Box>
+              )}
             </Box>
           </Box>
         ) : (
@@ -112,8 +150,8 @@ export default function Home() {
           ></MemberCard>
         )}
       </Box>
-      <Companies></Companies>
       <Paginator></Paginator>
+      <Companies></Companies>
     </Box>
   );
 }
