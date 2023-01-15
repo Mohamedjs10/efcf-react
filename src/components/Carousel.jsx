@@ -7,7 +7,7 @@ import { styles } from "./Carousel";
 function CarouselFadeExample({ width, images, title, body, number }) {
   return (
     <Box sx={styles.container} style={{ width }} dir="rtl">
-      <Carousel fade interval={1000}>
+      <Carousel fade interval={2000} controls={true} indicators={false}>
         {images.map((item, index) => {
           return (
             <Carousel.Item>

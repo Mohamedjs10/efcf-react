@@ -15,8 +15,9 @@ export default function Details() {
               display: "flex",
               flexDirection: "column",
               gap: 5,
-              p: 20,
-              pt: 5,
+
+              pl: { xs: 5, lg: 20 },
+              pr: { xs: 5, lg: 20 },
               pb: 5,
               textAlign: "right",
               lineHeight: "2",
@@ -35,7 +36,7 @@ export default function Details() {
               sx={{
                 alignSelf: "flex-end",
                 fontWeight: "bold",
-                fontSize: "32px",
+                fontSize: { xs: "16px", lg: "32px" },
                 color: "#2d3668",
               }}
             >

@@ -1,5 +1,5 @@
 import "./App.css";
-import Paginator from "./components/Paginator.jsx";
+import RS from "./components/RS.jsx";
 import PageWrapper from "./components/PageWrapper";
 import Form from "./pages/Form.jsx";
 import Home from "./pages/Home.jsx";
@@ -10,16 +10,11 @@ import Details from "./pages/Details";
 import AboutEFCF from "./pages/AboutEFCF.jsx";
 import Lists from "./pages/Lists.jsx";
 import Laws from "./pages/Laws.jsx";
-import BurgerMenu from "./components/BurgerMenu";
-import React, {
-  useState,
-  useEffect,
-  useRef,
-  useCallback,
-  useMemo,
-  Fragment,
-} from "react";
+// import "~slick-carousel/slick/slick.css";
+// import "~slick-carousel/slick/slick-theme.css";
+import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+import { Box } from "@mui/material";
 
 function App() {
   return (
