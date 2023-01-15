@@ -12,7 +12,7 @@ export default function BoardMembers() {
         sx={{
           display: "flex",
           justifyContent: "center",
-          alignItems: "center",
+          alignItems: { xs: "flex-start", lg: "center" },
           gap: 6,
           m: 6,
         }}

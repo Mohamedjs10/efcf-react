@@ -47,7 +47,8 @@ export default function Navbar() {
               width={"350px"}
               images={item.imgUrl}
               title={truncateString(item.title, 80)}
-              body={truncateString(item.body, 120)}
+              body={truncateString(item.body, 110)}
+              number={item.number}
             ></Carousel>
           );
         })}

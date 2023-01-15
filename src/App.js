@@ -6,7 +6,7 @@ import Home from "./pages/Home.jsx";
 import ExecutiveMangers from "./pages/ExecutiveMangers.jsx";
 import BoardMembers from "./pages/BoardMembers.jsx";
 import Training from "./pages/Training.jsx";
-
+import Details from "./pages/Details";
 import AboutEFCF from "./pages/AboutEFCF.jsx";
 import Lists from "./pages/Lists.jsx";
 import Laws from "./pages/Laws.jsx";
@@ -34,6 +34,7 @@ function App() {
           <Route path="/training" element={<Training />} />
           <Route path="/lists" element={<Lists />} />
           <Route path="/laws" element={<Laws />} />
+          <Route path="/details/:number" element={<Details />} />
         </Routes>
       </PageWrapper>
     </div>

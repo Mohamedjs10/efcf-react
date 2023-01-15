@@ -13,6 +13,7 @@ export const styles = {
   image: (theme) => ({
     width: "70%",
     textAlign: "center",
+    mb: 3,
   }),
   img: (theme) => ({
     width: "100%",

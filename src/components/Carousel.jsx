@@ -1,11 +1,24 @@
 import Carousel from "react-bootstrap/Carousel";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { Box } from "@mui/material";
 import { styles } from "./Carousel";
 
-function CarouselFadeExample({ width, images, title, body }) {
+function CarouselFadeExample({ width, images, title, body, number }) {
+  const navigate = useNavigate();
+
   return (
-    <Box sx={styles.container} style={{ width }} dir="rtl">
+    <Box
+      sx={styles.container}
+      style={{ width }}
+      dir="rtl"
+      component={Link}
+      to={`/details/${number}`}
+      onClick={() => {
+        window.scrollTo(0, 0);
+      }}
+    >
       <Carousel fade interval={1000}>
         {images.map((item, index) => {
           return (
