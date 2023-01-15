@@ -87,7 +87,7 @@ export default function Home() {
             <Box
               sx={{
                 position: "absolute",
-                top: "200px",
+                top: "230px",
                 left: "30px",
                 width: "550px",
                 lineHeight: "2",
