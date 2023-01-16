@@ -15,7 +15,6 @@ import Laws from "./pages/Laws.jsx";
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
-
 function App() {
   return (
     <div className="App">

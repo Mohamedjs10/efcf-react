@@ -20,6 +20,8 @@ import createCache from "@emotion/cache";
 import location from "../assets/images/location.png";
 import phone from "../assets/images/phone.png";
 import mail from "../assets/images/mail.png";
+import ReCapcha from "../components/ReCapcha";
+
 const theme = createTheme({
   direction: "rtl", // Both here and <body dir="rtl">
 });
@@ -131,6 +133,8 @@ export default function Direction() {
                 })
               }
             />
+            <ReCapcha></ReCapcha>
+
             <Button
               variant="contained"
               sx={{
