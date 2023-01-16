@@ -24,5 +24,8 @@ export const styles = {
     justifyContent: "flex-end",
     mb: 2,
     gap: 1,
+    textDecoration: "none",
+    color: "#ffffff",
+    "&:hover": { color: "#e3e3e3" },
   }),
 };

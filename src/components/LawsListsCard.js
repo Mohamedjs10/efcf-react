@@ -29,6 +29,7 @@ export const styles = {
     fontWeight: "bold",
     "&:hover": {
       backgroundColor: "#bb2f2c",
+      color: "white",
     },
   }),
 };

@@ -8,8 +8,8 @@ export const styles = {
     justifyContent: "center",
     textDecoration: "none",
     color: "#000",
-    transition: "transform .2s",
-    "&:hover": { transform: "scale(1.1)", color: "#bb2f2c" },
+    transition: "transform .5s",
+    "&:hover": { transform: "scale(1.05)", color: "#bb2f2c" },
   }),
   line: (theme) => ({
     height: "10px",

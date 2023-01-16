@@ -57,6 +57,7 @@ export default function TemporaryDrawer() {
             onClick={() => {
               setState({ ...state, [anchor]: false });
               navigate("/");
+              window.scrollTo(0, 0);
               setSelectedTab("main");
             }}
             sx={selectedTab === "main" && styles}
@@ -75,6 +76,8 @@ export default function TemporaryDrawer() {
             onClick={() => {
               setState({ ...state, [anchor]: false });
               navigate("/about");
+              window.scrollTo(0, 0);
+
               setSelectedTab("about efcf");
             }}
             sx={selectedTab === "about efcf" && styles}
@@ -107,6 +110,8 @@ export default function TemporaryDrawer() {
                 onClick={() => {
                   setState({ ...state, [anchor]: false });
                   navigate("/laws");
+                  window.scrollTo(0, 0);
+
                   setSelectedTab("laws");
                 }}
                 sx={selectedTab === "laws" && styles}
@@ -124,6 +129,8 @@ export default function TemporaryDrawer() {
                 onClick={() => {
                   setState({ ...state, [anchor]: false });
                   navigate("/lists");
+                  window.scrollTo(0, 0);
+
                   setSelectedTab("lists");
                 }}
                 sx={selectedTab === "lists" && styles}
@@ -144,6 +151,8 @@ export default function TemporaryDrawer() {
             onClick={() => {
               setState({ ...state, [anchor]: false });
               navigate("/mangers");
+              window.scrollTo(0, 0);
+
               setSelectedTab("mangers");
             }}
             sx={selectedTab === "mangers" && styles}
@@ -162,6 +171,8 @@ export default function TemporaryDrawer() {
             onClick={() => {
               setState({ ...state, [anchor]: false });
               navigate("/members");
+              window.scrollTo(0, 0);
+
               setSelectedTab("members");
             }}
             sx={selectedTab === "members" && styles}
@@ -180,6 +191,8 @@ export default function TemporaryDrawer() {
             onClick={() => {
               setState({ ...state, [anchor]: false });
               navigate("/training");
+              window.scrollTo(0, 0);
+
               setSelectedTab("training");
             }}
             sx={selectedTab === "training" && styles}
@@ -198,6 +211,8 @@ export default function TemporaryDrawer() {
             onClick={() => {
               setState({ ...state, [anchor]: false });
               navigate("/form");
+              window.scrollTo(0, 0);
+
               setSelectedTab("contact us");
             }}
             sx={selectedTab === "contact us" && styles}

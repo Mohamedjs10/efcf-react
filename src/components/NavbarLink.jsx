@@ -26,6 +26,7 @@ export default function NavbarLink({
       to={navigation && `${navigation}`}
       component={Link}
       onClick={() => {
+        window.scrollTo(0, 0);
         selectedLink(index);
         // navigate("/members");
       }}

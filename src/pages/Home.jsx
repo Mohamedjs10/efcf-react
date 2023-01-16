@@ -7,7 +7,6 @@ import MemberCard from "../components/MemberCard.jsx";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 export default function Home() {
   const theme = useTheme();
@@ -68,7 +67,7 @@ export default function Home() {
           <Box
             sx={{
               color: "#fff",
-              fontSize: "17px",
+              fontSize: { xs: "14px", xl: "17px" },
               whiteSpace: "pre-line",
               backgroundColor: "rgba(255,255,255,0)",
               backgroundImage:
@@ -78,19 +77,23 @@ export default function Home() {
               borderWidth: "0px",
               borderColor: "#e2e2e2",
               borderStyle: "solid",
-              backgroundSize: "cover",
+              backgroundSize: "contain",
               height: "750px",
               width: "80%",
               position: "relative",
+              display: "flex",
+              justifyContent: "flex-end",
+              alignItems: "flex-start",
             }}
           >
             <Box
               sx={{
-                position: "absolute",
-                top: "280px",
-                left: "30px",
+                position: "relative",
+                top: { xs: "180px", xl: "230px" },
                 width: "550px",
                 lineHeight: "2",
+                p: 1.5,
+                pl: 2,
               }}
             >
               اعتبر انتخابي كرئيس مجلس إدارة الاتحاد تكليف وجزء من مسئولية

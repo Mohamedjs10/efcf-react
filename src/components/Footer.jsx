@@ -13,15 +13,27 @@ export default function Footer() {
         <Box sx={styles.paragraph}>
           <Box>تواصل معنا</Box>
           <Box>
-            <Box sx={styles.image_next_text}>
+            <Box
+              component="a"
+              href="https://goo.gl/maps/sxfMi3FH497J7xen8"
+              sx={styles.image_next_text}
+            >
               <span>ميدان طلعت حرب - القاهرة</span>
               <img src={location} width={"40px"} height={"40px"}></img>
             </Box>
-            <Box sx={styles.image_next_text}>
+            <Box
+              component="a"
+              href="tel:+201158320993"
+              sx={styles.image_next_text}
+            >
               <span>01158320993</span>
               <img src={phone} width={"40px"} height={"40px"}></img>
             </Box>
-            <Box sx={styles.image_next_text}>
+            <Box
+              component="a"
+              href="mailto:support@efcf.org.eg?subject=Mail%20from%20Our%20Site"
+              sx={styles.image_next_text}
+            >
               <span>support@efcf.org.eg</span>
               <img src={mail} width={"40px"} height={"40px"}></img>
             </Box>
