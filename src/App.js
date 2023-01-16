@@ -15,9 +15,11 @@ import Laws from "./pages/Laws.jsx";
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
+import ImageList from "./components/ImageList.jsx";
 function App() {
   return (
     <div className="App">
+      <ImageList></ImageList>
       <PageWrapper>
         <Routes>
           <Route path="/" element={<Home />} />
