@@ -9,10 +9,10 @@ export const styles = {
     flexWrap: "wrap",
     gap: 2,
     p: 2,
-    justifyContent: { xs: "flex-end", lg: "center" },
+    justifyContent: { xs: "flex-end", lg: "space-between" },
   }),
   paragraph: (theme) => ({
-    m: 5,
+    m: 2,
     display: "flex",
     flexDirection: "column",
     gap: 2,
@@ -26,6 +26,6 @@ export const styles = {
     gap: 1,
     textDecoration: "none",
     color: "#ffffff",
-    "&:hover": { color: "#e3e3e3" },
+    "&:hover": { color: "#a3e3e3" },
   }),
 };

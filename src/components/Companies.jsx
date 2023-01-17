@@ -13,6 +13,7 @@ export default function Companies() {
         width: "80%",
         pt: 5,
       }}
+      className="container"
     >
       <Title title="الشركات" />
       <Box

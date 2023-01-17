@@ -78,7 +78,11 @@ export default function ImageList1() {
           src={imgSrc}
           width="400px"
           height="300px"
-          sx={{ borderRadius: "10px" }}
+          sx={{
+            borderRadius: "10px",
+            // width: { xs: "200", lg: "400px" },
+            // height: { xs: "150", lg: "300px" },
+          }}
         ></Box>
       ))}
     </Box>

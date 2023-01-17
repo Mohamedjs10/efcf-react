@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <Box sx={styles.container}>
-      <Box sx={styles.paragraphsContainer}>
+      <Box sx={styles.paragraphsContainer} className="container">
         <Box sx={styles.paragraph}>
-          <Box>تواصل معنا</Box>
+          <Box sx={{ fontWeight: "bold", fontSize: "18px" }}>تواصل معنا</Box>
           <Box>
             <Box
               component="a"
@@ -40,25 +40,38 @@ export default function Footer() {
           </Box>
         </Box>{" "}
         <Box sx={styles.paragraph} style={{ width: "200px" }}>
-          <Box>اخر الاخبار</Box>
+          <Box sx={{ fontWeight: "bold", fontSize: "18px" }}>اخر الاخبار</Box>
           <Box
-            component={Link}
-            sx={{ textDecoration: "none", color: "#ffffff" }}
-          >
-            القوانين أعضاء
-          </Box>{" "}
-          <Box
+            to="/laws"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             component={Link}
             sx={{
               textDecoration: "none",
               color: "#ffffff",
+              "&:hover": { color: "#a3e3e3" },
             }}
           >
-            مجلس الادارة
+            القوانين
+          </Box>{" "}
+          <Box
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+            to="/members"
+            component={Link}
+            sx={{
+              textDecoration: "none",
+              color: "#ffffff",
+              "&:hover": { color: "#a3e3e3" },
+            }}
+          >
+            أعضاء مجلس الادارة
           </Box>
         </Box>{" "}
         <Box sx={styles.paragraph}>
-          <Box>عن الاتحاد</Box>
+          <Box sx={{ fontWeight: "bold", fontSize: "18px" }}>عن الاتحاد</Box>
           <Box>
             تأسس الاتحاد المصري للجهات العاملة في مجال التمويل الاستهلاكي الخاضع
             لإشراف الهيئة العامة للرقابة المالية بموجب قانون تنظيم نشاط التمويل

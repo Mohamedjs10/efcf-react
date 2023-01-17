@@ -6,7 +6,7 @@ import Title from "./Title.jsx";
 
 export default function services() {
   return (
-    <Box sx={{ pr: 2, pl: 2 }}>
+    <Box sx={{}} className="container">
       <Title title="الخدمات" />
       <Box
         sx={{

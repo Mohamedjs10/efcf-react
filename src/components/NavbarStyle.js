@@ -1,15 +1,17 @@
 export const styles = {
   container: (theme) => ({
-    display: "flex",
-    gap: 1,
-    justifyContent: "space-around",
-    alignItems: "center",
     bgcolor: "white",
     position: "sticky",
     top: 0,
     zIndex: "2",
     borderBottom: "1px solid #EDEDED",
     mb: 10,
+  }),
+  content: (theme) => ({
+    display: "flex",
+    gap: 1,
+    justifyContent: "space-between",
+    alignItems: "center",
   }),
   navbar_container: (theme) => ({
     display: "flex",

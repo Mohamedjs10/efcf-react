@@ -60,6 +60,7 @@ export default function Home() {
           width: "100%",
           pb: 10,
         }}
+        className="container"
       >
         <Title title="رسالة رئيس الاتحاد"></Title>
 
@@ -71,7 +72,7 @@ export default function Home() {
               whiteSpace: "pre-line",
               backgroundColor: "rgba(255,255,255,0)",
               backgroundImage:
-                "url(https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/bg.png)",
+                "url(https://image-solution-no-scale.s3.us-east-2.amazonaws.com/upload/bgHome.png)",
               bgPosition: "center",
               backgroundRepeat: "no-repeat",
               borderWidth: "0px",
@@ -79,7 +80,7 @@ export default function Home() {
               borderStyle: "solid",
               backgroundSize: "contain",
               height: "750px",
-              width: "80%",
+              width: "100%",
               position: "relative",
               display: "flex",
               justifyContent: "flex-end",
